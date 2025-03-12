@@ -3,6 +3,7 @@
    affecting all components within the app */
 
 /* base rule */
+@import "tailwindcss";
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 55%;
 }
 
 h1,
@@ -22,21 +23,21 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: "Poppins", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
 }
 h1 {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 
 p,
 li,
 a,
 label {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   color: var(--para-color);
-  line-height: 1.5;
-  font-weight: 400;
+  line-height: 1.4;
+  font-weight: 300;
 }
 
 li {
@@ -65,14 +66,37 @@ a {
 /* layout */
 
 .container {
-  max-width: 142rem;
+  max-width: 110rem;
   margin: 0 auto;
   padding: 9.6rem 2.4rem;
+  height: 200vh; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  overflow: hidden;
+  padding: 10px;
 }
+
+.image {
+  height: 50px; /* Reduce image size */
+  width: auto;
+}
+
+.heading {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.paragraph {
+  font-size: 14px;
+  margin: 0;
+}
+
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  gap: 7rem;
 }
 
 .grid-two-cols {
