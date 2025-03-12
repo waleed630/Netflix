@@ -37,7 +37,8 @@ export const SeriesCard = ({ data }) => {
           style={{ width: "350px", height: "250px" }}
         />
       </div>
-      <div className={styles["card-content"]}>
+      {/* <div className={styles["card-content"]}> */}
+      <div className="flex flex-col gap-4 py-[3.2rem] px-[1.2rem]">
         <h2>Name: {name}</h2>
         <Rating>
           Rating:
