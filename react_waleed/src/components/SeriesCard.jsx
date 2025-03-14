@@ -34,7 +34,7 @@ export const SeriesCard = ({ data }) => {
         <img
           src={img_url}
           alt={name}
-          style={{ width: "350px", height: "250px" }}
+          // style={{ width: "350px", height: "250px" }}
         />
       </div>
       {/* <div className={styles["card-content"]}> */}
