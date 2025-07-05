@@ -2,9 +2,12 @@
 //import "./components/Netflix.css";
 //import "./components/Netflix.module.css";
 //import { DerivedState } from "./components/DerivedState";
-import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
+//import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
 // import { EventHandling } from "./components/EventHandling";
 // import { EventProps } from "./components/EventProps";
+
+import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
+
 
 export const App = () => {
   return (
